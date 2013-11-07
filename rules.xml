@@ -42,8 +42,8 @@
             <xsl:copy-of select=".//*[@id='portal-searchbox']/form/@*" />
               
             <label>
-                <span class="screen-reader-text">Pesquisar por:</span>
-            </label>
+        <span class="screen-reader-text">Pesquisar por:</span>
+      </label>
               
               <input type="search" class="search-field">
                   <xsl:attribute name="placeholder">
@@ -56,16 +56,24 @@
     
         </replace>
         
-        <replace css:content="h1.documentFirstHeading" css:theme="h1.entry-title" />
-        <replace css:content-children="#content-core" css:theme-children=".entry-content" />
+
         
         
-        <!--Content -->
+        <!--Content  -->
         <merge attributes="class" css:content="body" css:theme="body" />
         <copy attributes="id dir" css:content="body" css:theme="body" />
         
-      
-        <replace css:content-children="#portal-column-content" css:theme-children="#main-content" />
+        <replace css:content-children=".documentFirstHeading" css:theme-children="h1.entry-title" />
+        <drop css:content-children=".documentModified span" />
+        <replace css:content-children=".documentModified" css:theme-children="time" />
+        <replace css:content-children="#category span" css:theme-children=".categories-links" />
+        <replace css:content-children="#content-core" css:theme-children=".entry-content" />
+        
+        
+      <!--Conteudo 
+        <replace css:content-children="#portal-column-content" css:theme-children="#content>article" />
+
+         -->
 
 
         <replace css:content-children="#portal-column-one" css:theme-children="#secondary" />
