@@ -12,4 +12,16 @@ Changelog
 
 - Added Plone theme package structure [macagua]
 
-- Initial release
+- Changes in header rules [Andre Nogueira]
+
+- New rules for content [Andre Nogueira]
+
+- New rules for portlets [Andre Nogueira]
+
+- Minor ajusts [Andre Nogueira]
+
+- Add sidebar [Andre Nogueira]
+
+- Initial Import [Andre Nogueira]
+
+- Initial commit [Andre Nogueira]
