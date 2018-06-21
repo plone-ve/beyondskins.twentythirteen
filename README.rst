@@ -97,6 +97,14 @@ Credits
 
 - Andre Nogueira (agnogueira at gmail dot com).
 
+
+Amazing contributions
+---------------------
+
+- Leonardo J. Caballero G. aka macagua (leonardocaballero at gmail dot com).
+
+You can find an updated list of package contributors on https://github.com/simplesconsultoria/beyondskins.twentythirteen/contributors
+
 .. _`Twenty Thirteen`: http://wordpress.org/themes/twentythirteen
 .. _`Simples Consultoria`: http://www.simplesconsultoria.com.br/
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
